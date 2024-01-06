@@ -1,5 +1,8 @@
 import UIKit
 
+// here we are setting the data in userDefault
+
+
 let defaults = UserDefaults.standard
 
 defaults.set(10, forKey: "Ten")
@@ -13,6 +16,7 @@ defaults.set(dictionary, forKey: "dictionary")
 
 
 
+// here we are getting the data from userDefault
 
 let number = defaults.integer(forKey: "Ten")
 print(number)
